@@ -1,0 +1,15 @@
+# Sample consensus configuration file
+
+# Protocol options
+protocol:
+  # Number of replicas (servers)
+  "n": 3
+
+# List of peers (IDs and network addresses)
+peers:
+    - id: 0
+      addr: ":8000"
+    - id: 1
+      addr: ":8001"
+    - id: 2
+      addr: ":8002"
