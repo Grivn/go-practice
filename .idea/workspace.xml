@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/consensus.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/viperconfiger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/peer/cmd/request.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/peer/cmd/root.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/peer/cmd/run.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/peer/consensus.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/peer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/peer/peer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchtest/bench_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchtest/map_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchtest/slice_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routine/routine_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="GOROOT" path="$USER_HOME$/go1.15.6" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -60,11 +69,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/peer" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -75,7 +88,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestListener in github.com/Grivn/go-practice/routine">
     <configuration name="go build github.com/Grivn/go-practice/peer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -85,8 +98,53 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestListener in github.com/Grivn/go-practice/routine" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$/routine" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/routine" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestListener\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gobench bench_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$/benchtest" />
+      <framework value="gobench" />
+      <kind value="FILE" />
+      <package value="github.com/Grivn/go-practice" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/benchtest/bench_test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gobench map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$/benchtest" />
+      <framework value="gobench" />
+      <kind value="FILE" />
+      <package value="github.com/Grivn/go-practice" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/benchtest/map_test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gobench slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$/benchtest" />
+      <framework value="gobench" />
+      <kind value="FILE" />
+      <package value="github.com/Grivn/go-practice" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/benchtest/slice_test.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestListener in github.com/Grivn/go-practice/routine" />
+        <item itemvalue="Go Test.gobench slice_test.go" />
+        <item itemvalue="Go Test.gobench map_test.go" />
+        <item itemvalue="Go Test.gobench bench_test.go" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/peer" />
       </list>
     </recent_temporary>
@@ -114,5 +172,31 @@
         <entry key="GOPROXY" value="https://goproxy.io" />
       </map>
     </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="520" y="384" key="#GOROOT" timestamp="1617953305521">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="520" y="384" key="#GOROOT/0.0.1440.900@0.0.1440.900" timestamp="1617953305521" />
+    <state width="1398" height="311" key="GridCell.Tab.0.bottom" timestamp="1618472139980">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="311" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1618472139980" />
+    <state width="1398" height="311" key="GridCell.Tab.0.center" timestamp="1618472139975">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="311" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1618472139975" />
+    <state width="1398" height="311" key="GridCell.Tab.0.left" timestamp="1618472139972">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="311" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1618472139972" />
+    <state width="1398" height="311" key="GridCell.Tab.0.right" timestamp="1618472139977">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="311" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1618472139977" />
+    <state x="229" y="86" key="SettingsEditor" timestamp="1617953294057">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1617953294057" />
   </component>
 </project>
