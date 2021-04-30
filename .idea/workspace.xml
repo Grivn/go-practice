@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/maps/maps_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channels/chann_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +85,18 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestListener in github.com/Grivn/go-practice/maps">
+  <component name="RunManager" selected="Go Test.TestChannels in github.com/Grivn/go-practice/channels">
+    <configuration name="TestChannels in github.com/Grivn/go-practice/channels" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$/channels" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/channels" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestChannels\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestListener in github.com/Grivn/go-practice/maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$/maps" />
@@ -106,16 +117,6 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <pattern value="^\QTestListener\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="gobench bench_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/benchtest" />
-      <framework value="gobench" />
-      <kind value="FILE" />
-      <package value="github.com/Grivn/go-practice" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/benchtest/bench_test.go" />
       <method v="2" />
     </configuration>
     <configuration name="gobench map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestChannels in github.com/Grivn/go-practice/channels" />
         <item itemvalue="Go Test.TestListener in github.com/Grivn/go-practice/maps" />
         <item itemvalue="Go Test.TestListener in github.com/Grivn/go-practice/routine" />
         <item itemvalue="Go Test.gobench slice_test.go" />
         <item itemvalue="Go Test.gobench map_test.go" />
-        <item itemvalue="Go Test.gobench bench_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -177,22 +178,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="520" y="384" key="#GOROOT/0.0.1440.900@0.0.1440.900" timestamp="1617953305521" />
-    <state width="1398" height="311" key="GridCell.Tab.0.bottom" timestamp="1619162284655">
+    <state width="1398" height="311" key="GridCell.Tab.0.bottom" timestamp="1619754274600">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="311" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1619162284655" />
-    <state width="1398" height="311" key="GridCell.Tab.0.center" timestamp="1619162284652">
+    <state width="1398" height="311" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1619754274600" />
+    <state width="1398" height="311" key="GridCell.Tab.0.center" timestamp="1619754274595">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="311" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1619162284652" />
-    <state width="1398" height="311" key="GridCell.Tab.0.left" timestamp="1619162284650">
+    <state width="1398" height="311" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1619754274595" />
+    <state width="1398" height="311" key="GridCell.Tab.0.left" timestamp="1619754274594">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="311" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1619162284650" />
-    <state width="1398" height="311" key="GridCell.Tab.0.right" timestamp="1619162284653">
+    <state width="1398" height="311" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1619754274594" />
+    <state width="1398" height="311" key="GridCell.Tab.0.right" timestamp="1619754274597">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="311" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1619162284653" />
+    <state width="1398" height="311" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1619754274597" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1617953294057">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
