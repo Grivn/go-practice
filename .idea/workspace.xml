@@ -82,7 +82,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestDescendRange in github.com/Grivn/go-practice/btree">
+  <component name="RunManager" selected="Go Test.TestReplace in github.com/Grivn/go-practice/btree">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -104,6 +104,18 @@
       <pattern value="^\QTestChannels\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestCon in github.com/Grivn/go-practice/btree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$/btree" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/btree" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCon\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestDescendRange in github.com/Grivn/go-practice/btree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$/btree" />
@@ -116,28 +128,6 @@
       <pattern value="^\QTestDescendRange\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestListener in github.com/Grivn/go-practice/maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/maps" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/maps" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestListener\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestListener in github.com/Grivn/go-practice/routine" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/routine" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/routine" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestListener\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestMapsClear in github.com/Grivn/go-practice/maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$/maps" />
@@ -148,6 +138,18 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestMapsClear\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestReplace in github.com/Grivn/go-practice/btree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$/btree" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/btree" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestReplace\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -163,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestReplace in github.com/Grivn/go-practice/btree" />
+        <item itemvalue="Go Test.TestCon in github.com/Grivn/go-practice/btree" />
         <item itemvalue="Go Test.TestDescendRange in github.com/Grivn/go-practice/btree" />
         <item itemvalue="Go Test.TestMapsClear in github.com/Grivn/go-practice/maps" />
         <item itemvalue="Go Test.TestChannels in github.com/Grivn/go-practice/channels" />
-        <item itemvalue="Go Test.TestListener in github.com/Grivn/go-practice/maps" />
-        <item itemvalue="Go Test.TestListener in github.com/Grivn/go-practice/routine" />
       </list>
     </recent_temporary>
   </component>

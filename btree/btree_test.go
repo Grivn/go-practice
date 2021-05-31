@@ -81,3 +81,26 @@ func TestCon(t *testing.T) {
 
 	fmt.Println(v2.Age)
 }
+
+func TestReplace(t *testing.T) {
+	tree := btree.New(2) //创建一个2-3-4 树
+	for i := 0; i < 100; i++ {
+		//插入数据
+		tree.ReplaceOrInsert(&MyTree{Age: i, Name: "freedom" + strconv.Itoa(i)})
+	}
+	value1 := tree.Min()
+
+	v1 := value1.(*MyTree)
+
+	fmt.Println(v1)
+
+	for i := 0; i < 100; i++ {
+		//插入数据
+		tree.ReplaceOrInsert(&MyTree{Age: i, Name: "failed" + strconv.Itoa(i)})
+	}
+	value2 := tree.Min()
+
+	v2 := value2.(*MyTree)
+
+	fmt.Println(v2)
+}
