@@ -3,12 +3,14 @@ package btree
 import (
 	"fmt"
 	"github.com/google/btree"
+	"github.com/stretchr/testify/assert"
 	"strconv"
 	"testing"
 )
 type MyTree struct {
 	Age  int
 	Name string
+	event interface{}
 }
 
 func (m *MyTree) Less(item btree.Item) bool {
@@ -103,4 +105,22 @@ func TestReplace(t *testing.T) {
 	v2 := value2.(*MyTree)
 
 	fmt.Println(v2)
+}
+
+func TestHas(t *testing.T) {
+	tree := btree.New(2) //创建一个2-3-4 树
+	for i := 0; i < 100; i++ {
+		//插入数据
+		tree.ReplaceOrInsert(&MyTree{Age: i, Name: "freedom" + strconv.Itoa(i), event: &MyTree1{}})
+	}
+	value1 := tree.Min()
+
+	v1 := value1.(*MyTree)
+
+	fmt.Println(v1)
+
+	for i := 0; i < 100; i++ {
+		//插入数据
+		assert.True(t, tree.Has(&MyTree{Age: i, Name: "failed" + strconv.Itoa(i), event: &MyTree2{}}))
+	}
 }
