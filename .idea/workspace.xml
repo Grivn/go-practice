@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/list/list_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/btree/btree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btree/btree_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestHas in github.com/Grivn/go-practice/btree">
+  <component name="RunManager" selected="Go Test.TestList in github.com/Grivn/go-practice/list">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -130,16 +129,16 @@
       <pattern value="^\QTestHas\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMapsClear in github.com/Grivn/go-practice/maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestList in github.com/Grivn/go-practice/list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/maps" />
+      <working_directory value="$PROJECT_DIR$/list" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/maps" />
+      <package value="github.com/Grivn/go-practice/list" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestMapsClear\E$" />
+      <pattern value="^\QTestList\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestReplace in github.com/Grivn/go-practice/btree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -167,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestList in github.com/Grivn/go-practice/list" />
         <item itemvalue="Go Test.TestHas in github.com/Grivn/go-practice/btree" />
         <item itemvalue="Go Test.TestReplace in github.com/Grivn/go-practice/btree" />
         <item itemvalue="Go Test.TestCon in github.com/Grivn/go-practice/btree" />
         <item itemvalue="Go Test.TestDescendRange in github.com/Grivn/go-practice/btree" />
-        <item itemvalue="Go Test.TestMapsClear in github.com/Grivn/go-practice/maps" />
       </list>
     </recent_temporary>
   </component>
