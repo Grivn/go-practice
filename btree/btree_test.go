@@ -109,6 +109,10 @@ func TestReplace(t *testing.T) {
 
 func TestHas(t *testing.T) {
 	tree := btree.New(2) //创建一个2-3-4 树
+
+	min := tree.Min()
+	fmt.Println(min)
+
 	for i := 0; i < 100; i++ {
 		//插入数据
 		tree.ReplaceOrInsert(&MyTree{Age: i, Name: "freedom" + strconv.Itoa(i), event: &MyTree1{}})
