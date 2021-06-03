@@ -113,6 +113,10 @@ func TestHas(t *testing.T) {
 	min := tree.Min()
 	fmt.Println(min)
 
+	v, ok := min.(*MyTree)
+	fmt.Println(v)
+	fmt.Println(ok)
+
 	for i := 0; i < 100; i++ {
 		//插入数据
 		tree.ReplaceOrInsert(&MyTree{Age: i, Name: "freedom" + strconv.Itoa(i), event: &MyTree1{}})
