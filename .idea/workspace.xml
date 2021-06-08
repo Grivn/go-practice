@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/slice/slice_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/sort_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSliceNilAppend in github.com/Grivn/go-practice/slice">
+  <component name="RunManager" selected="Go Test.TestSortFunc in github.com/Grivn/go-practice/sort">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -117,18 +116,6 @@
       <pattern value="^\QTestList\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestReplace in github.com/Grivn/go-practice/btree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/btree" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/btree" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestReplace\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestSliceNilAppend in github.com/Grivn/go-practice/slice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$/slice" />
@@ -139,6 +126,18 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestSliceNilAppend\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSortFunc in github.com/Grivn/go-practice/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$/sort" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSortFunc\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -165,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSortFunc in github.com/Grivn/go-practice/sort" />
         <item itemvalue="Go Test.TestSliceNilAppend in github.com/Grivn/go-practice/slice" />
         <item itemvalue="Go Test.TestHas in github.com/Grivn/go-practice/btree" />
         <item itemvalue="Go Test.gobench syncmap_test.go" />
         <item itemvalue="Go Test.TestList in github.com/Grivn/go-practice/list" />
-        <item itemvalue="Go Test.TestReplace in github.com/Grivn/go-practice/btree" />
       </list>
     </recent_temporary>
   </component>
