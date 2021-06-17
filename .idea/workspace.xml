@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sort/sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/sort_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logrus/rus_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maplist/maplist_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +74,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -81,7 +85,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSortFunc in github.com/Grivn/go-practice/sort">
+  <component name="RunManager" selected="Go Test.TestLogger2 in github.com/Grivn/go-practice/logrus">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -92,28 +96,40 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHas in github.com/Grivn/go-practice/btree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLogger in github.com/Grivn/go-practice/logrus" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/btree" />
+      <working_directory value="$PROJECT_DIR$/logrus" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/btree" />
+      <package value="github.com/Grivn/go-practice/logrus" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestHas\E$" />
+      <pattern value="^\QTestLogger\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestList in github.com/Grivn/go-practice/list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLogger2 in github.com/Grivn/go-practice/logrus" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/list" />
+      <working_directory value="$PROJECT_DIR$/logrus" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/list" />
+      <package value="github.com/Grivn/go-practice/logrus" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestList\E$" />
+      <pattern value="^\QTestLogger2\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMapList in github.com/Grivn/go-practice/maplist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$/maplist" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/maplist" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestMapList\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSliceNilAppend in github.com/Grivn/go-practice/slice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -151,24 +167,13 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="gobench syncmap_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/syncmap" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="github.com/Girvn/go-practice" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/syncmap/syncmap_test.go" />
-      <framework value="gobench" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestLogger2 in github.com/Grivn/go-practice/logrus" />
+        <item itemvalue="Go Test.TestLogger in github.com/Grivn/go-practice/logrus" />
+        <item itemvalue="Go Test.TestMapList in github.com/Grivn/go-practice/maplist" />
         <item itemvalue="Go Test.TestSortFunc in github.com/Grivn/go-practice/sort" />
         <item itemvalue="Go Test.TestSliceNilAppend in github.com/Grivn/go-practice/slice" />
-        <item itemvalue="Go Test.TestHas in github.com/Grivn/go-practice/btree" />
-        <item itemvalue="Go Test.gobench syncmap_test.go" />
-        <item itemvalue="Go Test.TestList in github.com/Grivn/go-practice/list" />
       </list>
     </recent_temporary>
   </component>
