@@ -61,3 +61,16 @@ func TestMapsClear(t *testing.T) {
 	wrong := ms.readAndDelete(1)
 	fmt.Println(wrong)
 }
+
+func TestMapsCount(t *testing.T) {
+	ms := NewMapStruct()
+
+	fmt.Println(ms.m[1])
+
+	fmt.Println(len(ms.m))
+
+	boolMap := make(map[string]bool)
+
+	fmt.Println(boolMap["test"])
+	fmt.Println(len(boolMap))
+}

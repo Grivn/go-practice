@@ -21,5 +21,5 @@ func TestLogger2(t *testing.T) {
 	logrus.SetFormatter(&nested.Formatter{NoColors: true})
 
 	logrus.SetOutput(io.MultiWriter(writer1, writer2, writer3))
-	logrus.Info("info msg")
+	logrus.Infof("info msg %d test %d test %s", 1, 2, "k")
 }
