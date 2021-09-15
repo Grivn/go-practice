@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,10 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bls/bls_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed25519/crypto_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logrus/rus_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/logrus/rus_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/maps_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/maps/maps_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slice/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/slice/slice_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +60,14 @@
     <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/maps/maps_test.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/maplist/maplist_test.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/sirupsen/logrus@v1.2.0/exported.go" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/slice/slice_test.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/antonfisher/nested-logrus-formatter@v1.3.1/formatter.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/sirupsen/logrus@v1.2.0/formatter.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/logrus/rus_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/maps/maps_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/sirupsen/logrus@v1.2.0/exported.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/maplist/maplist_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/antonfisher/nested-logrus-formatter@v1.3.1/formatter.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/slice/slice_test.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1pGxxFbZSu1zZxSXNK02yRYk0UQ" />
   <component name="ProjectViewState">
@@ -79,14 +81,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable..is.expanded" value="false" />
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phalanx" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/peer" />
       <recent name="$PROJECT_DIR$/config" />
     </key>
