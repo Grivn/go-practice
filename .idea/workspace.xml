@@ -23,9 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bls/bls_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed25519/crypto_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/channels/chann_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/channels/chann_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +62,20 @@
     <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/maps/maps_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bls/bls_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ed25519/crypto_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/slice/slice_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.gvm/gos/go1.13/src/crypto/ed25519/ed25519.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/metrics/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/sirupsen/logrus@v1.2.0/exported.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.gvm/gos/go1.13/src/net/http/server.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/prometheus/client_golang@v0.9.3/prometheus/registry.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/antonfisher/nested-logrus-formatter@v1.3.1/formatter.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/sirupsen/logrus@v1.2.0/formatter.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/logrus/rus_test.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/maps/maps_test.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/sirupsen/logrus@v1.2.0/exported.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/maplist/maplist_test.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/antonfisher/nested-logrus-formatter@v1.3.1/formatter.go" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/slice/slice_test.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1pGxxFbZSu1zZxSXNK02yRYk0UQ" />
   <component name="ProjectViewState">
@@ -85,7 +93,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phalanx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
@@ -99,7 +107,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestMapsCount in github.com/Grivn/go-practice/maps">
+  <component name="RunManager" selected="Go Test.TestDChannels in github.com/Grivn/go-practice/channels">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -110,28 +118,25 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestLogger2 in github.com/Grivn/go-practice/logrus" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/Grivn/go-practice/metrics" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/logrus" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/logrus" />
+      <package value="github.com/Grivn/go-practice/metrics" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestLogger2\E$" />
+      <filePath value="$PROJECT_DIR$/metrics/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMapList in github.com/Grivn/go-practice/maplist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDChannels in github.com/Grivn/go-practice/channels" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/maplist" />
+      <working_directory value="$PROJECT_DIR$/channels" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/maplist" />
+      <package value="github.com/Grivn/go-practice/channels" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestMapList\E$" />
+      <pattern value="^\QTestDChannels\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestMapsCount in github.com/Grivn/go-practice/maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -183,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestDChannels in github.com/Grivn/go-practice/channels" />
+        <item itemvalue="Go Build.go build github.com/Grivn/go-practice/metrics" />
         <item itemvalue="Go Test.TestMapsCount in github.com/Grivn/go-practice/maps" />
         <item itemvalue="Go Test.TestSortFunc in github.com/Grivn/go-practice/sort" />
         <item itemvalue="Go Test.TestSliceNilAppend in github.com/Grivn/go-practice/slice" />
-        <item itemvalue="Go Test.TestMapList in github.com/Grivn/go-practice/maplist" />
-        <item itemvalue="Go Test.TestLogger2 in github.com/Grivn/go-practice/logrus" />
       </list>
     </recent_temporary>
   </component>
