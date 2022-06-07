@@ -22,9 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/main.go" afterDir="false" />
+    <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="# feat: 新功能&#10;# fix: 修复 bug&#10;# docs: 修改了注释、文档等说明文件&#10;# style: 不影响代码功能的修改，例如代码风格，空格、空行、分号等&#10;# refactor: 重构 （既不是 feat，也不是 fix）&#10;# test: 修改测试相关代码，如测试用例等&#10;# chore: 修改项目维护相关的文件，例如编译脚本，文档生成脚本等&#10;# revert: 提交 revert">
+      <change afterPath="$PROJECT_DIR$/ifswitch/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loop/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switchcase/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/.gvm/gos/go1.13" />
+  <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -51,6 +53,7 @@
     </file-type-list>
   </component>
   <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
     <option name="urls">
       <list>
         <option value="file://$PROJECT_DIR$/../../../.." />
@@ -59,41 +62,40 @@
     <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/maps/maps_test.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/bls/bls_test.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ed25519/crypto_test.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/slice/slice_test.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/.gvm/gos/go1.13/src/crypto/ed25519/ed25519.go" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/metrics/main.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/sirupsen/logrus@v1.2.0/exported.go" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/.gvm/gos/go1.13/src/net/http/server.go" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/prometheus/client_golang@v0.9.3/prometheus/registry.go" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/antonfisher/nested-logrus-formatter@v1.3.1/formatter.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/sirupsen/logrus@v1.2.0/formatter.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/logrus/rus_test.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/maplist/maplist_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/maps/maps_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/metrics/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/slice/slice_test.go" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1pGxxFbZSu1zZxSXNK02yRYk0UQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="configurable..is.expanded" value="false" />
-    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
-    <property name="go.formatter.settings.were.checked" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
-    <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/bytedance/go/src/github.com/Grivn/go-practice",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -104,7 +106,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestDChannels in github.com/Grivn/go-practice/channels">
+  <component name="RunManager" selected="Go Build.go build github.com/Grivn/go-practice/switchcase">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -115,6 +117,15 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/Grivn/go-practice/loop" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/loop" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/loop/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/Grivn/go-practice/metrics" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -122,6 +133,15 @@
       <package value="github.com/Grivn/go-practice/metrics" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/metrics/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/Grivn/go-practice/switchcase" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/switchcase" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/switchcase/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestDChannels in github.com/Grivn/go-practice/channels" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -148,30 +168,6 @@
       <pattern value="^\QTestMapsCount\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSliceNilAppend in github.com/Grivn/go-practice/slice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/slice" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/slice" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestSliceNilAppend\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSortFunc in github.com/Grivn/go-practice/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/sort" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/sort" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestSortFunc\E$" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -185,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/Grivn/go-practice/switchcase" />
+        <item itemvalue="Go Build.go build github.com/Grivn/go-practice/loop" />
         <item itemvalue="Go Test.TestDChannels in github.com/Grivn/go-practice/channels" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/metrics" />
         <item itemvalue="Go Test.TestMapsCount in github.com/Grivn/go-practice/maps" />
-        <item itemvalue="Go Test.TestSortFunc in github.com/Grivn/go-practice/sort" />
-        <item itemvalue="Go Test.TestSliceNilAppend in github.com/Grivn/go-practice/slice" />
       </list>
     </recent_temporary>
   </component>
@@ -207,14 +203,13 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
-    <integration-enabled>true</integration-enabled>
     <environment>
       <map>
         <entry key="GOPROXY" value="https://goproxy.io" />
       </map>
     </environment>
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>
