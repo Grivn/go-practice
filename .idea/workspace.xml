@@ -23,9 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="# feat: 新功能&#10;# fix: 修复 bug&#10;# docs: 修改了注释、文档等说明文件&#10;# style: 不影响代码功能的修改，例如代码风格，空格、空行、分号等&#10;# refactor: 重构 （既不是 feat，也不是 fix）&#10;# test: 修改测试相关代码，如测试用例等&#10;# chore: 修改项目维护相关的文件，例如编译脚本，文档生成脚本等&#10;# revert: 提交 revert">
-      <change afterPath="$PROJECT_DIR$/ifswitch/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loop/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/switchcase/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joint/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,11 +64,14 @@
     <setting file="file://$PROJECT_DIR$/bls/bls_test.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ed25519/crypto_test.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ifswitch/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/logrus/rus_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/loop/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/maplist/maplist_test.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/maps/maps_test.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/metrics/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/slice/slice_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/switchcase/main.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,23 +81,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/bytedance/go/src/github.com/Grivn/go-practice",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bytedance/go/src/github.com/Grivn/go-practice&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -106,7 +108,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/Grivn/go-practice/switchcase">
+  <component name="RunManager" selected="Go Build.go build github.com/Grivn/go-practice/joint">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -115,6 +117,15 @@
       <package value="github.com/Girvn/go-practice" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/Grivn/go-practice/joint" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/joint" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/joint/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build github.com/Grivn/go-practice/loop" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -156,18 +167,6 @@
       <pattern value="^\QTestDChannels\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMapsCount in github.com/Grivn/go-practice/maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/maps" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/maps" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestMapsCount\E$" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -181,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/Grivn/go-practice/joint" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/switchcase" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/loop" />
         <item itemvalue="Go Test.TestDChannels in github.com/Grivn/go-practice/channels" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/metrics" />
-        <item itemvalue="Go Test.TestMapsCount in github.com/Grivn/go-practice/maps" />
       </list>
     </recent_temporary>
   </component>
