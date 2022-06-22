@@ -95,3 +95,102 @@ func sub2() {
 	}
 	fmt.Println(res)
 }
+
+type accessor struct {
+	content map[string]string
+}
+
+// NOTE: we may need to find a better way to deal with it.
+func (acc *accessor) joint(raw string) string {
+	// split by "("
+	leftParenJoint := ""
+	leftParenSplit := strings.Split(raw, "(")
+	for lpIndex, lpItem := range leftParenSplit {
+		// split by ")"
+		rightParenJoint := ""
+		rightParenSplit := strings.Split(lpItem, ")")
+		for rpIndex, rpItem := range rightParenSplit {
+			// split by ","
+			commaJoint := ""
+			commaSplit := strings.Split(rpItem, ",")
+			for commaIndex, commaItem := range commaSplit {
+				// split by "."
+				dotJoint := ""
+				dotSplit := strings.Split(commaItem, ".")
+				for dotIndex, dotItem := range dotSplit {
+					// split by "$"
+					variableJoint := ""
+					variableSplit := strings.Split(dotItem, "$")
+					for variableIndex, variableItem := range variableSplit {
+						if variableIndex == 0 {
+							// the first item cannot be a variable, joint directly.
+							variableJoint += variableItem
+							continue
+						}
+						value := acc.content[variableItem]
+						if value == "" {
+							variableJoint += fmt.Sprintf("$%s", variableItem)
+						} else {
+							variableJoint += value
+						}
+					}
+					dotJoint += variableJoint
+					if dotIndex < len(dotSplit)-1 {
+						dotJoint += "."
+					}
+				}
+				commaJoint += dotJoint
+				if commaIndex < len(commaSplit)-1 {
+					commaJoint += ","
+				}
+			}
+			rightParenJoint += commaJoint
+			if rpIndex < len(rightParenSplit)-1 {
+				rightParenJoint += ")"
+			}
+		}
+		leftParenJoint += rightParenJoint
+		if lpIndex < len(leftParenSplit)-1 {
+			leftParenJoint += "("
+		}
+	}
+	return leftParenJoint
+}
+
+func (acc *accessor) splitAndJoint(raw string, sepList []string, index int) string {
+	// the joint string to return.
+	// sepList [",", ".", "(", ")"]
+	joint := ""
+
+	// split by the sep in sep_list
+	if index < len(sepList) {
+		sep := sepList[index]
+		split := strings.Split(raw, sep)
+		for i, item := range split {
+			joint += acc.splitAndJoint(item, sepList, index+1)
+			if i < len(split)-1 {
+				joint += sep
+			}
+		}
+		return joint
+	}
+
+	// the sep_list is empty,
+	// then joint the variables according to "$" sep.
+	split := strings.Split(raw, "$")
+	for i, item := range split {
+		if i == 0 {
+			// the first item cannot be a variable, joint directly.
+			joint += item
+			continue
+		}
+		value := acc.content[item]
+		if value == "" {
+			variable := "$" + item
+			joint += variable
+		} else {
+			joint += value
+		}
+	}
+	return joint
+}

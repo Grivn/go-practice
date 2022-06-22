@@ -23,9 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="# feat: 新功能&#10;# fix: 修复 bug&#10;# docs: 修改了注释、文档等说明文件&#10;# style: 不影响代码功能的修改，例如代码风格，空格、空行、分号等&#10;# refactor: 重构 （既不是 feat，也不是 fix）&#10;# test: 修改测试相关代码，如测试用例等&#10;# chore: 修改项目维护相关的文件，例如编译脚本，文档生成脚本等&#10;# revert: 提交 revert">
-      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joint/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slice_performance/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slice_performance/main_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/joint/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/Grivn/go-practice/joint">
+  <component name="RunManager" selected="Go Test.BenchmarkAppendSlice in github.com/Grivn/go-practice/slice_performance">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -128,24 +129,6 @@
       <filePath value="$PROJECT_DIR$/joint/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/Grivn/go-practice/loop" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/loop" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/loop/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/Grivn/go-practice/metrics" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/metrics" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/metrics/main.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build github.com/Grivn/go-practice/switchcase" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -155,16 +138,40 @@
       <filePath value="$PROJECT_DIR$/switchcase/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDChannels in github.com/Grivn/go-practice/channels" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkAppendSlice in github.com/Grivn/go-practice/slice_performance" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/channels" />
+      <working_directory value="$PROJECT_DIR$/slice_performance" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/channels" />
+      <package value="github.com/Grivn/go-practice/slice_performance" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestDChannels\E$" />
+      <framework value="gobench" />
+      <pattern value="^\QBenchmarkAppendSlice\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkFib10 in github.com/Grivn/go-practice/slice_performance" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$/slice_performance" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/slice_performance" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <pattern value="^\QBenchmarkFib10\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkPreSet in github.com/Grivn/go-practice/slice_performance" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$/slice_performance" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/slice_performance" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <pattern value="^\QBenchmarkPreSet\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -180,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.BenchmarkAppendSlice in github.com/Grivn/go-practice/slice_performance" />
+        <item itemvalue="Go Test.BenchmarkPreSet in github.com/Grivn/go-practice/slice_performance" />
+        <item itemvalue="Go Test.BenchmarkFib10 in github.com/Grivn/go-practice/slice_performance" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/joint" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/switchcase" />
-        <item itemvalue="Go Build.go build github.com/Grivn/go-practice/loop" />
-        <item itemvalue="Go Test.TestDChannels in github.com/Grivn/go-practice/channels" />
-        <item itemvalue="Go Build.go build github.com/Grivn/go-practice/metrics" />
       </list>
     </recent_temporary>
   </component>
