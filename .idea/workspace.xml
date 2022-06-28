@@ -23,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="# feat: 新功能&#10;# fix: 修复 bug&#10;# docs: 修改了注释、文档等说明文件&#10;# style: 不影响代码功能的修改，例如代码风格，空格、空行、分号等&#10;# refactor: 重构 （既不是 feat，也不是 fix）&#10;# test: 修改测试相关代码，如测试用例等&#10;# chore: 修改项目维护相关的文件，例如编译脚本，文档生成脚本等&#10;# revert: 提交 revert">
-      <change afterPath="$PROJECT_DIR$/cli/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
