@@ -1,7 +1,17 @@
 package main
 
-func main() {
+import (
+	"fmt"
+	"strings"
+)
 
+func main() {
+	var set []string
+	res := strings.Join(set, "\n")
+	fmt.Println(res)
+	err := fmt.Errorf(res)
+	fmt.Println(err)
+	fmt.Println(err == nil)
 }
 
 // rules
