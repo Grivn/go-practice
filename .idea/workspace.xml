@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="# feat: 新功能&#10;# fix: 修复 bug&#10;# docs: 修改了注释、文档等说明文件&#10;# style: 不影响代码功能的修改，例如代码风格，空格、空行、分号等&#10;# refactor: 重构 （既不是 feat，也不是 fix）&#10;# test: 修改测试相关代码，如测试用例等&#10;# chore: 修改项目维护相关的文件，例如编译脚本，文档生成脚本等&#10;# revert: 提交 revert">
-      <change afterPath="$PROJECT_DIR$/mathtest/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmostests/cosmos1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmostests/cosmos2/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +96,9 @@
     <setting file="file:///usr/local/opt/go/libexec/src/net/http/response.go" root0="SKIP_INSPECTION" />
     <setting file="file:///usr/local/opt/go/libexec/src/os/file.go" root0="SKIP_INSPECTION" />
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="jfjx1w0g" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -130,7 +134,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/Grivn/go-practice/mathtest">
+  <component name="RunManager" selected="Go Build.go build github.com/Grivn/go-practice/cosmostests/cosmos2">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -141,6 +145,24 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/Grivn/go-practice/cosmostests/cosmos1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/cosmostests/cosmos1" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cosmostests/cosmos1/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/Grivn/go-practice/cosmostests/cosmos2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/cosmostests/cosmos2" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cosmostests/cosmos2/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/Grivn/go-practice/fetchtimer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -148,24 +170,6 @@
       <package value="github.com/Grivn/go-practice/fetchtimer" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/fetchtimer/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/Grivn/go-practice/heap" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/heap" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/heap/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/Grivn/go-practice/jiukun" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/jiukun" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/jiukun/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build github.com/Grivn/go-practice/mathtest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -199,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/Grivn/go-practice/cosmostests/cosmos2" />
+        <item itemvalue="Go Build.go build github.com/Grivn/go-practice/cosmostests/cosmos1" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/mathtest" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/fetchtimer" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/testpanic" />
-        <item itemvalue="Go Build.go build github.com/Grivn/go-practice/heap" />
-        <item itemvalue="Go Build.go build github.com/Grivn/go-practice/jiukun" />
       </list>
     </recent_temporary>
   </component>
