@@ -9,6 +9,14 @@ type testMap struct {
 	id uint64
 }
 
+func TestMapString(t *testing.T) {
+	m := make(map[string]string)
+	m["category"] = "worker"
+
+	_, ok := m[""]
+	fmt.Println(ok)
+}
+
 func TestMaps(t *testing.T) {
 	m := make(map[uint64]*testMap)
 
