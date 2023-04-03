@@ -1,26 +1,43 @@
-package jsontesttools
+package main
 
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
-	"os"
 )
 
-func init() {
-	if _, err := os.Stat("test"); os.IsNotExist(err) {
-		os.Mkdir("test", 0777)
-		os.Chmod("test", 0777)
-	}
+type TestSchema struct {
+	Desc     string     `json:"desc"`
+	DataList []TestData `json:"data_list"`
 }
 
-func GenerateJsonFile(res interface{}, prefix string) {
-	json1, errs := json.MarshalIndent(res, "", "\t\t")
-	if errs != nil {
-		fmt.Println("json marshal error:", errs)
-	}
-	err := ioutil.WriteFile("test/"+prefix+".json", json1, 0644)
+type TestData struct {
+	ID int64 `json:"id"`
+}
+
+func main() {
+	s := TestSchema{Desc: "test", DataList: []TestData{{ID: 1}, {ID: 2}}}
+	data, err := json.Marshal(s)
 	if err != nil {
-		fmt.Println("写文件失败")
+		panic(err)
+	}
+	processor(data)
+}
+
+func processor(data []byte) {
+	itemMap := make(map[string]interface{})
+	if err := json.Unmarshal(data, &itemMap); err != nil {
+		panic(err)
+	}
+	for key, item := range itemMap {
+		switch v := item.(type) {
+		case []interface{}:
+
+		case []TestData:
+			fmt.Println(key, v)
+		case string:
+			fmt.Println(key, v)
+		default:
+			panic("unknown")
+		}
 	}
 }
