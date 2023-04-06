@@ -23,14 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="# feat: 新功能&#10;# fix: 修复 bug&#10;# docs: 修改了注释、文档等说明文件&#10;# style: 不影响代码功能的修改，例如代码风格，空格、空行、分号等&#10;# refactor: 重构 （既不是 feat，也不是 fix）&#10;# test: 修改测试相关代码，如测试用例等&#10;# chore: 修改项目维护相关的文件，例如编译脚本，文档生成脚本等&#10;# revert: 提交 revert">
-      <change afterPath="$PROJECT_DIR$/gojson/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonlegalizer/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonlegalizer/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonlegalizer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swissmap/map_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swissmap/swiss.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsontesttools/json.go" beforeDir="false" afterPath="$PROJECT_DIR$/jsontesttools/json.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
+  <component name="GOROOT" url="file:///usr/local/Cellar/go@1.18/1.18.10/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -112,23 +109,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bytedance/go/src/github.com/Grivn/go-practice&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/bytedance/go/src/github.com/Grivn/go-practice",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "go.sdk"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -139,7 +137,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/Grivn/go-practice/jsontesttools">
+  <component name="RunManager" selected="Go Test.TestFunction in github.com/Grivn/go-practice/swissmap">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -177,13 +175,16 @@
       <filePath value="$PROJECT_DIR$/jsontesttools/json.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/Grivn/go-practice/marshal" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFunction in github.com/Grivn/go-practice/swissmap" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/swissmap" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/marshal" />
+      <package value="github.com/Grivn/go-practice/swissmap" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/marshal/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestFunction\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestMapString in github.com/Grivn/go-practice/maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -211,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestFunction in github.com/Grivn/go-practice/swissmap" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/jsontesttools" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/jsontest" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/errmsg" />
         <item itemvalue="Go Test.TestMapString in github.com/Grivn/go-practice/maps" />
-        <item itemvalue="Go Build.go build github.com/Grivn/go-practice/marshal" />
       </list>
     </recent_temporary>
   </component>
