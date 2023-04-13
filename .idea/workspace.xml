@@ -23,11 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7c2be1-3089-483b-8ca0-61f24e8c197f" name="Default Changelist" comment="# feat: 新功能&#10;# fix: 修复 bug&#10;# docs: 修改了注释、文档等说明文件&#10;# style: 不影响代码功能的修改，例如代码风格，空格、空行、分号等&#10;# refactor: 重构 （既不是 feat，也不是 fix）&#10;# test: 修改测试相关代码，如测试用例等&#10;# chore: 修改项目维护相关的文件，例如编译脚本，文档生成脚本等&#10;# revert: 提交 revert">
-      <change afterPath="$PROJECT_DIR$/swissmap/map_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swissmap/swiss.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/floatstring/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,11 +86,13 @@
     <setting file="file://$PROJECT_DIR$/slice/slice_test.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sort/sort_test.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/statusmanager/interface.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/swissmap/map_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/swissmap/swiss.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/switchcase/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/testpanic/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///usr/local/opt/go/libexec/src/encoding/json/decode.go" root0="SKIP_INSPECTION" />
     <setting file="file:///usr/local/opt/go/libexec/src/encoding/json/encode.go" root0="SKIP_INSPECTION" />
-    <setting file="file:///usr/local/opt/go/libexec/src/io/ioutil/ioutil.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/io/ioutil/ioutil.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///usr/local/opt/go/libexec/src/net/http/client.go" root0="SKIP_INSPECTION" />
     <setting file="file:///usr/local/opt/go/libexec/src/net/http/response.go" root0="SKIP_INSPECTION" />
     <setting file="file:///usr/local/opt/go/libexec/src/os/file.go" root0="SKIP_INSPECTION" />
@@ -137,7 +136,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestFunction in github.com/Grivn/go-practice/swissmap">
+  <component name="RunManager" selected="Go Build.go build github.com/Grivn/go-practice/floatstring">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -155,6 +154,15 @@
       <package value="github.com/Grivn/go-practice/errmsg" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/errmsg/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/Grivn/go-practice/floatstring" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-practice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Grivn/go-practice/floatstring" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/floatstring/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build github.com/Grivn/go-practice/jsontest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -187,18 +195,6 @@
       <pattern value="^\QTestFunction\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMapString in github.com/Grivn/go-practice/maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-practice" />
-      <working_directory value="$PROJECT_DIR$/maps" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Grivn/go-practice/maps" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestMapString\E$" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go-practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -212,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/Grivn/go-practice/floatstring" />
         <item itemvalue="Go Test.TestFunction in github.com/Grivn/go-practice/swissmap" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/jsontesttools" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/jsontest" />
         <item itemvalue="Go Build.go build github.com/Grivn/go-practice/errmsg" />
-        <item itemvalue="Go Test.TestMapString in github.com/Grivn/go-practice/maps" />
       </list>
     </recent_temporary>
   </component>
